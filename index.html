@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Legal Tech Seed - Form</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 id="title">We want to know your opinion about LTS</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve our work
+      </p>
+    </header>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="16"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+        <p>Which option best describes your current role?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="teacher">Teacher</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+    </div>
+    <div class="form-group">
+        <p>Would you recommend LegalTech Seed to a friend?</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Definitely</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />Maybe</label
+        >
+  
+        <label
+          ><input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Not sure</label
+        >
+      </div>
+      <div class="form-group">
+        <p>
+            What do you like the most about us?
+        </p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="post">Instagram Post</option>
+          <option value="podcast">Podcast</option>
+          <option value="informateados">Informateados</option>
+          <option value="dictionary">Tech dictionary</option>
+          <option value="community">Community</option>
+          <option value="webinars">Webinars</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>
+            What would you like to implement?
+          <span class="clue">(Check all that apply)</span>
+        </p>
+  
+        <label
+          ><input
+            name="prefer"
+            value="front-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />Movie/Serie Review</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="courses"
+            type="checkbox"
+            class="input-checkbox"
+          />Courses</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="mentoring"
+            type="checkbox"
+            class="input-checkbox"
+          />Mentoring</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="job"
+            type="checkbox"
+            class="input-checkbox"
+          />Job offers</label
+        >
+
+        <label
+          ><input
+            name="prefer"
+            value="videos"
+            type="checkbox"
+            class="input-checkbox"
+          />Videos</label
+        >
+
+        <label
+          ><input
+            name="prefer"
+            value="forum"
+            type="checkbox"
+            class="input-checkbox"
+          />Forum</label>
+
+      </div>
+      <div class="form-group">
+        <p>Any comments or suggestions?</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+
+      <img id="Logolts" src="lts.png" alt="Logo">
+    </form>
+  </body>
+</html>
