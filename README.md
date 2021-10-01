@@ -10,6 +10,6 @@
 <img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">
 
 
-👩‍💻 DEMO: https://gisellechaumont.github.io/ltspage
+👩‍💻 DEMO: https://gisellechaumont.github.io/ltsform/
 
 Complete 🔧
