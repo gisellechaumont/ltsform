@@ -1,6 +1,6 @@
 ### LEGALTECH SEED FORM 
 
-##One of the final proyects of course " Responsive Web Design" of FreeCodeCamp:
+## One of the final proyects of course " Responsive Web Design" of FreeCodeCamp:
 
 
 
